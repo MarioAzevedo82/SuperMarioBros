@@ -19,6 +19,10 @@ button {
 }
 
 body {
+    height: 100vh;
+}
+
+.caixa-mae {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -28,4 +32,15 @@ body {
 
 .caixa-principal {
     width: 40%;
+}
+
+.caixa-video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+video {
+    width: 100vw;
+    
 }
