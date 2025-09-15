@@ -36,6 +36,7 @@ button:hover {
 
 body {
     height: 100vh;
+    color: white;
 }
 
 .caixa-mae {
@@ -57,7 +58,10 @@ body {
 }
 
 video {
-    width: 100vw;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
 
 }
 
@@ -104,8 +108,8 @@ video {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 50px;
-    left: 50px;
+    left: -300px;
+    top: 30%;
     padding: 20px;
     border-radius: 5px;
     gap: 15px;
@@ -127,3 +131,23 @@ textarea {
     padding: 5px;
     outline-color: #18D80F;
 }
+
+.mascara-formulario {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+
+}
+
+/*
+    inicial :
+    top: 30%;
+    left: -300px
+
+    final :
+    top: 30%;
+    left: 50%
+    transform: translateX(-50%)
+*/
