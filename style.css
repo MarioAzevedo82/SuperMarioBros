@@ -69,18 +69,18 @@ video {
     top: 0;
 }
 
-.link-whatsapp img{
- height: 60px; 
- position: fixed;
- right: 20px;  
- bottom: 20px;
+.link-whatsapp img {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
 }
 
 .header {
-display: flex;
-align-items: center;
-gap: 30px;
-margin: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
 }
 
 .header img {
@@ -97,4 +97,33 @@ margin: 30px;
     color: #C51111;
     font-size: 26px;
     transition: 0.5s ease-in-out;
+}
+
+.formulario-fale-conosco {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 15px;
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18D80F;
+}
+
+textarea {
+    width: 270px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+    outline-color: #18D80F;
 }
