@@ -2,7 +2,7 @@
 const form = document.querySelector(".formulario-fale-conosco")
 const mascara = document.querySelector(".mascara-formulario")
 
-function cliqueiNoBotao() {
+function mostrarForm() {
     // Torcar a posição do formulário pra ir para o centro da tela
     form.style.left = "50%"
     form.style.transform = "translateX(-50%)"
@@ -12,4 +12,5 @@ function cliqueiNoBotao() {
 function clicouFora() {
     mascara.style.visibility = "hidden"
     form.style.left = "-300px"
+    form.style.transform = "translateX(0)"
 }
